@@ -10,7 +10,7 @@
     <meta name="robots" content="index, follow">
     <link rel="icon" href="media/sausage.png">
     <link rel="stylesheet" href="style.css">
-    <title>CI/CD Pipelines</title>
+    <title>HTML Overview</title>
 
 </head>
 <body>
@@ -18,11 +18,11 @@
         <div><a href="#">Home</a></div>
         <div><a href="#">About</a></div>
         <div><a href="#">Contact</a></div>
-        <div><a href="http://www.longboyscout.com">Scout's page</a></div>
+        <div><a href="http://127.0.0.1:3000/web.html">web page</a></div>
     </div>
 
-    <h1>Welcome to CI/CD Pipelines overview</h1>
-    <h2>This site is intended to illustrate some of the basic HTML tags that you an use to build a front page to your CI/CD pipeline. For example, this passage uses a 'h2' tag, although heading tags by default will appear different sizes, the number (h1 - h6) should refer to importance.</h2>
+    <h1>Welcome to HTML overview</h1>
+    <h2>This site is intended to illustrate some of the basic HTML tags that you can use to build a front page to your CI/CD pipeline. For example, this passage uses a 'h2' tag, although heading tags by default will appear different sizes, the number (h1 - h6) should refer to importance.</h2>
     <hr/>
     <p id="hrtag"> I've used a 'hr' tag above to create a horizontal line, used to break up content. However, this text is within 'p' tags, for paragraph. 
         
@@ -39,18 +39,18 @@
     
     <p>We can use many other html tags to structure our content; Use 'ul' to create an <i>unordered list</i> i.e. bulllet points, or 'ol' for an ordered list.</p>
     <div style="font-size: small;">
-        <h3>HTML elements</h3>
+        <h3>HTML elements in bulletpoints:</h3>
         <ul>
-            <li>Sausages</li>
-            <li>Steak</li>
-            <li>Chicken</li>
-            <li>Ice Cream</li>
+            <li>&lt;html&gt;: This wraps your entire HTML document.</li>
+            <li>&lt;head&gt;: Contains meta-information about your document, like its title and links to scripts and stylesheets.</li>
+            <li>&lt;body&gt;: Everything you want to display on your page goes inside this.</li>
+            <li>&lt;div&gt;: A container for other elements—useful for structuring your page.</li>
         </ul>
-        <h3>Frankie's favourite toys:</h3>
+        <h3>HTML elements in numbered list:</h3>
         <ol>
-            <li>Ball</li>
-            <li>Ball</li>
-            <li>Ball</li>
+            <li>&lt;ul&gt;, &lt;ol&gt;, and &lt;li&gt;: For unordered and ordered lists.</li>
+            <li>&lt;table&gt;, &lt;tr&gt;, &lt;td&gt;, and &lt;th&gt;: For tables and table cells.</li>
+            <li>&lt;form&gt;, &lt;input&gt;, &lt;label&gt;: For collecting user input.</li>
         </ol>
     </div>
     <p>Here's the code:</p>
@@ -79,7 +79,7 @@
     <p>h1 {color:green; font-size:16px;}</p>
     <br>
     <p>When added between the head tags it looks like this:</p>
-    <img src="media/internalcss.JPG" alt="an exmaple of an internal style rule" width="300">
+    <img src="media/internalcss.JPG" alt="an example of an internal style rule" width="300">
    
 
     <p class="rules">You might have spotted a problem with the CSS rules. What if we wanted to apply rules to individual elements, rather than all h1 elements, or all divs. To do this we assign a CSS class to our html tags, and then refer to those tags in our CSS rules declared in the head block. These images below show the div tags with classes, the CSS rules with class selectors, and the different output in the browser:</p>
