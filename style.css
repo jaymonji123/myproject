@@ -35,3 +35,31 @@ img {
     border-radius: 10px;
     margin: 20px 0;
 }
+
+/* Basic button styles */ button { 
+    background-color: navy; 
+    color: white; border: none; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+} 
+
+/* Hover effect */ 
+button:hover { 
+    background-color: royalblue; 
+    transform: scale(1.05); 
+} 
+
+/* Focus effect */ 
+button:focus { 
+    outline: none; 
+    box-shadow: 0 0 0 3px lightblue; 
+} 
+
+/* Active effect */ 
+button:active { 
+    background-color: darkblue; 
+    transform: scale(0.95); 
+}

@@ -11,6 +11,7 @@
     <link rel="icon" href="media/sausage.png">
     <link rel="stylesheet" href="style.css">
     <title>HTML Overview</title>
+    <script src="scripts.js" defer></script>
 
 </head>
 <body>
@@ -59,9 +60,9 @@
     
     <table class="frankietab">
         <tr>
-            <td><img src="media/mates.jpg" alt="Frankie playing" width="250px"></td>
-            <td><img src="media/pickmeup.jpg" alt="Frankie wanting to be picked up" width="250px"></td>
-            <td><img src="media/icecream.jpg" alt="Frankie eating ice cream" height="250px"></td>
+            <td><img src="HTML_description.jpg" alt="What is HTML?" width="250px"></td>
+            <td><img src="HTML_code.jpg" alt="Example of terminal code" width="250px"></td>
+            <td><img src="HTML_structure.jpg" alt="Basic structure of HTML" height="250px"></td>
         </tr>
     </table>
     
@@ -93,12 +94,8 @@
     <hr>
     <br>
     
-    <form id="orderForm" method="get" action="https://k6rohiot03.execute-api.eu-west-2.amazonaws.com/replaceFN">
-        <input type="text" name="first_name" placeholder="First Name">
-        <input type="text" name="last_name" placeholder="Last Name">
-        <input type="number" name="order_qty" placeholder="Order Quantity">
-        <button type="submit">Submit Order</button>
-    </form>
+    <button id="fetchMessageBtn">Say 'hello'??</button>
+    <div id="message"></div>
 
 </body>
 </html>
